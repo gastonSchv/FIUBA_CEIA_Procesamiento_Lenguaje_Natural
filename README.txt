@@ -1,3 +1,3 @@
-# Procesamiento de Lenguaje Natural I
+#Procesamiento de Lenguaje Natural I
 
-## Repositorio para la entrega de trabajos prácticos
+##Repositorio para la entrega de trabajos prácticos

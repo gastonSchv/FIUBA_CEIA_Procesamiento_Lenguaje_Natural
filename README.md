@@ -28,6 +28,7 @@ Para ejecutar correctamente el código del desafío, se requiere tener instalado
 - `scipy`
 - `optuna`
 
+---
 
 ### 📙 Descripción breve del Desafío 2
 
@@ -42,6 +43,8 @@ Las actividades principales incluyeron:
   - Operaciones vectoriales tipo analogía.
   - Visualización del espacio vectorial en 2D y 3D mediante t-SNE.
 - El desarrollo completo se encuentra en el archivo `Gensim.ipynb`.
+
+---
 
 ### ⚙️ Requisitos para correr la solución
 

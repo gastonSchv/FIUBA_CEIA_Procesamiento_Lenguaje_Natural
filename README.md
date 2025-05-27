@@ -29,9 +29,7 @@ Para ejecutar correctamente el código del desafío, se requiere tener instalado
 - `optuna`
 
 
-## 📙 Desafío 2 — Construcción y análisis de embeddings con Word2Vec
-
-### Descripción
+### 📙 Descripción breve del Desafío 2
 
 En el segundo desafío se abordó la generación de representaciones vectoriales de palabras mediante **Word2Vec**, utilizando un corpus literario compuesto por archivos PDF.
 
@@ -45,7 +43,7 @@ Las actividades principales incluyeron:
   - Visualización del espacio vectorial en 2D y 3D mediante t-SNE.
 - El desarrollo completo se encuentra en el archivo `Gensim.ipynb`.
 
-### ⚙️ Requisitos para ejecutar
+### ⚙️ Requisitos para correr la solución
 
 - Python 3.11.9  
 - Jupyter Notebook o entorno compatible  

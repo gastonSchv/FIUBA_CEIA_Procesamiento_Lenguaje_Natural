@@ -55,3 +55,32 @@ Las actividades principales incluyeron:
 - `plotly`  
 - `scikit-learn` (≥ 1.2 para compatibilidad con t-SNE multithreaded)  
 - Carpeta `textos/` con archivos `.pdf` ubicada en el mismo nivel que el archivo `Gensim.ipynb`
+
+---
+
+### 📗 Descripción breve del Desafío 3
+
+El tercer desafío abordó la **modelización de secuencias de texto** mediante distintas arquitecturas de redes neuronales recurrentes. Se utilizó un corpus literario unificado, obtenido a partir de múltiples archivos PDF, para entrenar modelos que pudieran predecir caracteres futuros en una secuencia, con el objetivo de generar texto de manera autónoma.
+
+Las actividades principales incluyeron:
+
+- Limpieza, normalización y tokenización a nivel caracter del corpus completo.
+- Codificación del texto y construcción del vocabulario.
+- Implementación de un dataset para generar pares de entrada y salida supervisada.
+- Implementación y entrenamiento de un modelo secuencial en Keras que comienza con una capa de embeddings para representar caracteres como vectores densos, seguido por tres bloques recurrentes en cascada: SimpleRNN, LSTM y GRU, y una capa densa con activación softmax para la predicción del próximo carácter.
+- Evaluación de los modelos con la métrica de perplejidad sobre el conjunto de validación.
+- Generación de texto a partir de los modelos entrenados para evaluar la coherencia y fluidez.
+
+El desarrollo completo se encuentra en el archivo `Desafío 3.ipynb`.
+
+---
+
+### ⚙️ Requisitos para correr la solución
+
+- Python 3.11.9  
+- Jupyter Notebook o entorno compatible  
+- `tensorflow`  
+- `pypdf`  
+- `numpy`  
+- `matplotlib`  
+- Carpeta `textos/` con archivos `.pdf` ubicada en el mismo nivel que el archivo `Desafío 3.ipynb`

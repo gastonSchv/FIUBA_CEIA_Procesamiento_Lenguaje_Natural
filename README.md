@@ -84,3 +84,32 @@ El desarrollo completo se encuentra en el archivo `Desafío 3.ipynb`.
 - `numpy`  
 - `matplotlib`  
 - Carpeta `textos/` con archivos `.pdf` ubicada en el mismo nivel que el archivo `Desafío 3.ipynb`
+
+---
+
+### 📕 Descripción breve del Desafío 4
+
+El cuarto desafío abordó la **traducción automática de secuencias** mediante un modelo *encoder-decoder* con redes LSTM, aplicado a un conjunto de pares de frases en inglés y español.
+
+Las actividades principales incluyeron:
+
+- Preprocesamiento del dataset para generar secuencias de entrada y salida, con tokens especiales (`<sos>`, `<eos>`) para el decoder y padding adecuado para el encoder y decoder.
+- Creación de representaciones vectoriales de palabras en inglés utilizando embeddings preentrenados GloVe (`glove.6B.50d`).
+- Definición y entrenamiento de un modelo de traducción basado en LSTM, con embeddings fijos en la capa de entrada y realimentación secuencial en el decoder durante la inferencia.
+- Evaluación de la calidad de las traducciones mediante un conjunto de pruebas estructuradas en niveles de dificultad: palabras individuales, frases cortas, frases cotidianas, frases con conectores, expresiones idiomáticas y frases técnicas.
+- Análisis crítico de los resultados obtenidos y de las posibles causas del desempeño observado.
+
+El desarrollo completo se encuentra en el archivo `Desafío 4.ipynb`.
+
+---
+
+### ⚙️ Requisitos para correr la solución
+
+- Python 3.11.9  
+- Jupyter Notebook o entorno compatible  
+- `tensorflow`  
+- `numpy`  
+- `matplotlib`  
+- `seaborn`  
+- Archivo [`spa.txt`](https://www.manythings.org/anki/) con los pares de frases inglés-español  
+- Archivo [`glove.6B.50d.pkl`](https://www.kaggle.com/code/vladlee/glove-6b-50d-pkl/output) ubicado en el mismo nivel que el archivo `Desafío 4.ipynb`
